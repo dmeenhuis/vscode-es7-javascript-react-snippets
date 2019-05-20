@@ -4,7 +4,11 @@ All info about changes
 
 # Released
 
-[2.4.2] - 2019-05-20
+[3.0.1] - 2019-05-20
+
+= Updated README
+
+[3.0.0] - 2019-05-20
 
 = Better TypeScript support
 

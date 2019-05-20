@@ -1,9 +1,9 @@
 # VS Code ES7 React/Redux/React-Native/JS snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dmeenhuis.es7-react-js-snippets.svg)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/dmeenhuis.es7-react-js-snippets.svg)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/dmeenhuis.es7-react-js-snippets.svg)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/dmeenhuis.es7-react-js-snippets.svg)
+[![Version](https://vsmarketplacebadge.apphb.com/version/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dmeenhuis.es7-react-js-snippets-with-semicolons.svg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/dmeenhuis.es7-react-js-snippets-with-semicolons.svg)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/dmeenhuis.es7-react-js-snippets-with-semicolons.svg)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/dmeenhuis.es7-react-js-snippets-with-semicolons.svg)
 
 This extension provides you JavaScript and React/Redux snippets in ES7 with Babel plugin features for [VS Code](https://code.visualstudio.com/)
 
@@ -15,7 +15,7 @@ This is a fork of [ES7 React/Redux/React-Native/JS Snippets](https://marketplace
 
 You can search through snippets with `ES7 snippet search` command which can be run with `CMD + Shift + P` or just use `CMD + Shift + R` keybinding.
 
-Here is direct link to marketplace [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dmeenhuis.es7-react-js-snippets)
+Here is direct link to marketplace [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dmeenhuis.es7-react-js-snippets-with-semicolons)
 
 ## Supported languages (file extensions)
 
@@ -211,11 +211,12 @@ export default $1
 
 ```javascript
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 
-export class FileName extends Component {
-  static propTypes = {}
+interface Props {
 
+}
+
+export class FileName extends Component<Props> {
   render() {
     return <div>$2</div>
   }
@@ -240,11 +241,12 @@ export default class FileName extends PureComponent {
 
 ```javascript
 import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types'
 
-export default class FileName extends PureComponent {
-  static propTypes = {}
+interface Props {
 
+}
+
+export default class FileName extends PureComponent<Props> {
   render() {
     return <div>$2</div>
   }
@@ -255,11 +257,12 @@ export default class FileName extends PureComponent {
 
 ```javascript
 import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types'
 
-export class FileName extends PureComponent {
-  static propTypes = {}
+interface Props {
 
+}
+
+export class FileName extends PureComponent<Props> {
   render() {
     return <div>$2</div>
   }
@@ -272,13 +275,12 @@ export default FileName
 
 ```javascript
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 
-export default class FileName extends Component {
-  static propTypes = {
-    $2: $3,
-  }
+interface Props {
 
+}
+
+export default class FileName extends Component<Props> {
   render() {
     return <div>$4</div>
   }
@@ -289,13 +291,14 @@ export default class FileName extends Component {
 
 ```javascript
 import React from 'react'
-import PropTypes from 'prop-types'
 
-function $1(props) {
-  return <div>$0</div>
+interface Props {
+
 }
 
-$1.propTypes = {}
+function $1(props: Props) {
+  return <div>$0</div>
+}
 
 export default $1
 ```
@@ -326,9 +329,12 @@ export default $1
 
 ```javascript
 import React from 'react'
-import PropTypes from 'prop-types'
 
-const $1 = props => {
+interface Props {
+
+}
+
+const $1: React.FC<Props> = (props) => {
   return <div>$0</div>
 }
 
@@ -390,14 +396,13 @@ export default $1
 
 ```javascript
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
-export class FileName extends Component {
-  static propTypes = {
-    $2: $3,
-  }
+interface Props {
 
+}
+
+export class FileName extends Component<Props> {
   render() {
     return <div>$4</div>
   }
