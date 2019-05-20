@@ -9,7 +9,7 @@ This extension provides you JavaScript and React/Redux snippets in ES7 with Babe
 
 ## Note
 
-This is a fork of [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets). This fork uses semi-colons.
+This is a fork of [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets). This fork uses semi-colons and has improved TypeScript support.
 
 ## Search command
 
