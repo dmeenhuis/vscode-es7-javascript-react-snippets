@@ -4,6 +4,14 @@ All info about changes
 
 # Released
 
+[2.4.1] - 2019-05-20
+
+= Updated README
+
+[2.4.0] - 2019-05-20
+
+- Updated snippets to also include semi-colons
+
 [2.2.2] - 2019-05-03
 
 - Set "extensionKind": "ui" to support remote development

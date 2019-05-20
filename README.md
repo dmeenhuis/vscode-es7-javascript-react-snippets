@@ -1,17 +1,21 @@
 # VS Code ES7 React/Redux/React-Native/JS snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/dsznajder.es7-react-js-snippets.svg)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/dsznajder.es7-react-js-snippets.svg)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/dsznajder.es7-react-js-snippets.svg)
+[![Version](https://vsmarketplacebadge.apphb.com/version/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dmeenhuis.es7-react-js-snippets.svg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/dmeenhuis.es7-react-js-snippets.svg)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/dmeenhuis.es7-react-js-snippets.svg)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dmeenhuis.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/dmeenhuis.es7-react-js-snippets.svg)
 
 This extension provides you JavaScript and React/Redux snippets in ES7 with Babel plugin features for [VS Code](https://code.visualstudio.com/)
+
+## Note
+
+This is a fork of [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets). This fork uses semi-colons.
 
 ## Search command
 
 You can search through snippets with `ES7 snippet search` command which can be run with `CMD + Shift + P` or just use `CMD + Shift + R` keybinding.
 
-Here is direct link to marketplace [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+Here is direct link to marketplace [ES7 React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dmeenhuis.es7-react-js-snippets)
 
 ## Supported languages (file extensions)
 
