@@ -2,7 +2,7 @@
   "name": "es7-react-js-snippets-with-semicolons",
   "displayName": "ES7 React/Redux/GraphQL/React-Native snippets (with semi-colons)",
   "description": "Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "publisher": "dmeenhuis",
   "icon": "images/logo.png",
   "keywords": [
